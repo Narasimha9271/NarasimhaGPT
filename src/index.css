@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,800;1,400;1,500;1,600;1,700&display=swap');
+
+*{
+  color: #fff;
+  font-family: 'Open Sans',sans-serif;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  
+}
+
+
+.app{
+  background-color: #343541;
+  display: flex;
+
+}
+
+.new-chat-btn{
+  cursor: pointer;
+  
+}
+
+.new-chat-btn:hover {
+  background-color: #343541; /* Red color as an example */
+}
+
+.side-bar {
+  height: 100vh;
+  width:300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: black;
+  
+}
+
+button{
+  border: solid 0.5px rgba(255,255,255,0.50);
+  background-color: transparent;
+  border-radius: 5px;
+  margin: 10px;
+  padding: 10px;
+  font-size: 15px;
+}
+
+nav{
+  border-top: solid 0.5px rgba(255,255,255,0.50);
+  margin: 10px;
+  padding: 10px;
+}
+
+.history{
+  margin: 10px;
+  padding: 10px;
+  height: 100%;
+
+}
+.history li {
+  padding: 15px 0;
+  list-style-type: none;
+  cursor: pointer;
+}
+.main{
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+}
+
+.info{
+  color: rgba(255,255,255,0.5);
+  font-size: 14px;
+  padding: 10px;
+}
+
+.bottom-section{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.input-container{
+  position: relative;
+  width: 100%;
+  max-width: 650px;
+}
+
+input{
+  width: 100%;
+  border: none;
+  font-size: 15px;
+  background-color: rgba(255,255,255,0.05);
+  padding: 20px 15px;
+  border-radius: 15px;
+box-shadow: rgba(0,0,0,0.05) 0 54px 55px,
+rgba(0,0,0,0.05) 0 -12px 30px,
+rgba(0,0,0,0.05) 0 4px 6px,
+rgba(0,0,0,0.05) 0 12px 3px,
+rgba(0,0,0,0.05) 0 -3px 5px;
+}
+input:focus{
+  outline: none;
+}
+
+#submit{
+  position: absolute;
+  bottom: 20px;
+  right: 0;
+  cursor: pointer;
+  font-size: 20px;
+
+}
+
+
+.feed{
+  overflow-x: hidden;
+  width: 60%; 
+  margin-left: auto;
+  margin-right: auto;
+  padding: 5px;
+  
+}
+
+.feed li {
+  display: flex;
+  background-color: #444654;
+  width: 100%;
+  padding: 10px;
+  margin: 20px 0;
+  
+}
+
+.feed p{
+  color: rgba(255,255,255,0.8);
+  font-size: 17px;
+  text-align: left;
+  padding-right: 20px;
+  
+}
+
+
+
+.openai-logo{
+  width: 80px;
+  height: 80px;
+  border-radius: 40px;
+  
+}
+
+.user-icon{
+  width: 30px;
+  height: 30px;
+  border-radius: 15px;
+}
+
+.gpt-logo{
+  width: 30px;
+  height: 30px;
+  border-radius: 15px;
+}
+
+
